@@ -19,3 +19,38 @@
 - HTTPs
 - Tree Shaking - remove unused code
 - Different dev and prod bundles
+
+/\*\*
+
+- Header
+- - Logo
+- - Nav Items
+- Body
+- - Search
+- - RestaurantContainer
+- - RestaurantCard
+-      - Img
+-      - Name of Res, Star Rating, cuisine, delery tie
+- Footer
+- - Copyright
+- - Links
+- - Address
+- - Contact
+    \*/
+
+Two types of export/import
+
+1. Default export/import
+   export default Component;
+   import Component from "path";
+
+2. Named export/import
+
+export const Component;
+import {Component} from "path";
+
+\*\*Whenever state variable updates react will re-render the component
+
+Virtual DOM is the representation of actual DOM
+
+Actual DOM is like <div> tags
