@@ -30,7 +30,7 @@
 - - RestaurantContainer
 - - RestaurantCard
 -      - Img
--      - Name of Res, Star Rating, cuisine, delery tie
+-      - Name of Res, Star Rating, cuisine, delivry time
 - Footer
 - - Copyright
 - - Links
@@ -54,3 +54,6 @@ import {Component} from "path";
 Virtual DOM is the representation of actual DOM
 
 Actual DOM is like <div> tags
+
+useeffect(()=>{},[])----useeffect hook have callback fn and dependency array, it is optional
+the callback fn will be called after the component has bn rendered
