@@ -31,7 +31,6 @@ const Body = () => {
     console.log(
       json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
-    console.log(restaurantList);
   };
   console.log("Render Called");
 

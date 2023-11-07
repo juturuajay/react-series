@@ -80,3 +80,14 @@
 .filter{
     display: flex;
 }
+
+.user-card{
+    padding:2px;
+    border: 1px solid black;
+    display:inline-flexbox;
+
+}
+.github-pic{
+    width: 120px;
+  
+}
