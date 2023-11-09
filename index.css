@@ -91,3 +91,13 @@
     width: 120px;
   
 }
+.online{
+    color:green;
+    font-size: 30px;
+    
+}
+.offline{
+    color: red;
+    font-size: 30px;
+  
+}
